@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100vw;
+    height: 100vh;
+}
+
+.home{
+    width: 100vw;
+    height: 37rem;
+    background-color: rgb(192, 148, 233);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .container{
+    width: 15rem;
+    height: 15rem;
+    margin-left: 5rem;
+    background-color: #CBF2F0;
+} */
+.image{
+    height: 30rem;
+    width: 40rem;
+    background-image: url(https://www.pngall.com/wp-content/uploads/5/Toy-Story-Movie-PNG-Image-File.png);
+    background-size: cover;
+}
+
+.main2{
+    width: 100vw;
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #D3DEDE;
+}
+
+.cards{
+    width: 80vw;
+    height: 50vh;
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.subcards{
+    width: 25rem;
+    height: 17rem;
+    background-image: url(https://img.freepik.com/free-photo/front-view-kid-playing-with-wooden-toyds_23-2149357210.jpg?w=740&t=st=1690875821~exp=1690876421~hmac=64b6f12fb94d5d43c732e37ac83dc3167acaab2b7ac2be2a409dec22c276b2a5);
+    background-size: cover;
+    margin: 10px;
+    border-radius: 10px;   
+}
+
+.main3{
+    /* width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #CBF2F0; */
+}
+
+.main4{
+    
+}
+
+.form{
+    background-color: rgb(143, 208, 238);
+    width: 100vw;
+    height: 30rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+input{
+    outline: none;
+}
